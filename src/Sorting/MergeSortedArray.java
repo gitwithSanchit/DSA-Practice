@@ -11,7 +11,6 @@ public class MergeSortedArray {
         int n = 3;
 
         merge(nums1, m, nums2, n);
-
         System.out.println(Arrays.toString(nums1));
     }
 
