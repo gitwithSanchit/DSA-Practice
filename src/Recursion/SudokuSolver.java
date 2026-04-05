@@ -13,7 +13,7 @@ public class SudokuSolver {
 
                 if (board[row][col] == '.') {
 
-                    for char c = '1'; c < '9'; c++) {
+                    for (char c = '1'; c < '9'; c++) {
 
                         if (isSafe(row, col, board, c)) {
 
